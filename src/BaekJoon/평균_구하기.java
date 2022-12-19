@@ -25,5 +25,6 @@ public class 평균_구하기 {
 		System.out.println(sum * 100.0 / max / N);
 		
 		sc.close();
+		
 	}
 }
