@@ -28,7 +28,7 @@ public class 문자_찾기 {
 			문자_찾기 T = new 문자_찾기();
 			Scanner sc = new Scanner(System.in);
 			String str = sc.next();
-			char c = sc.next().charAt(0); // 문자열에서 0번째에 있는거 가저와
+			char c = sc.next().charAt(0); // 문자열에서 0번째에 있는거 가져와
 			
 			System.out.println(T.solution(str, c));
 			
