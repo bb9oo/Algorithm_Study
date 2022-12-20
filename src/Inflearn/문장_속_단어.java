@@ -15,7 +15,7 @@ public class 문장_속_단어 {
 		 */
 		
 		// 첫번째로 발견되는 띄어쓰기의 위치를 리턴
-		// 발견못하면 -1을 리턴
+		// 발견못하면 -1을 리턴, 발견하면 인덱스 번호를 리턴
 		while((pos=str.indexOf(' '))!=-1){
 			String tmp = str.substring(0,pos);
 			int len = tmp.length();
@@ -26,7 +26,7 @@ public class 문장_속_단어 {
 			//str을 바꿔 줌
 			str = str.substring(pos+1);
 		}
-		//마지막 단어 처리
+		//마지막 단어 처리  
 		if(str.length()>m) answer = str;
 		
 		return answer;
