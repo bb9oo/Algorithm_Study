@@ -9,10 +9,17 @@ public class 문장_속_단어 {
 		
 		int m = Integer.MIN_VALUE,pos; //가장 작은 값으로 초기화
 		
-		/*
-		 * //띄어쓰기로 구별한 단어를 스트링 배열에 저장 String[] s = str.split(" "); for(String x : s) {
-		 * int len = x.length(); if(len > m) { m = len; answer = x; } }
-		 */
+//		// 다른 풀이 방법
+//		// 띄어쓰기로 구별한 단어를 스트링 배열에 저장
+//		String[] s = str.split(" ");
+//		for (String x : s) {
+//			int len = x.length();
+//			if (len > m) {
+//				m = len;
+//				answer = x;
+//			}
+//		}
+		 
 		
 		// 첫번째로 발견되는 띄어쓰기의 위치를 리턴
 		// 발견못하면 -1을 리턴, 발견하면 인덱스 번호를 리턴
